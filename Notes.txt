@@ -2,6 +2,10 @@
 fig.savefig(final_figures+"Imoveis.jpeg",format='jpeg', dpi=300)
 plt.figure(figsize = (15,8))
 
+Maior correlação é de: 1.0. Já a menor correlação é de: -0.96
+
+Valores NULOS → Valores AUSENTES
+
 1. Introdução
 2. Coleta dos Dados
 3. Processamento/Tratamento dos Dados
