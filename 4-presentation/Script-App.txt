@@ -1,0 +1,51 @@
+Objetivo - análise + modelo imóveis /plat AIRBNB /em toronto
+PLAT CRESC
+BOA - anfitriões (free money) + hospedes () , BUSCAR MT ATRIBUTO
+dificil de saber preço = mts atributos
+===========================================================
+5ws
+why  - boa modelagem = 
+who  - Insideairbnb + Mapquest
+what - 1) Modelagem 2) Determinar atributos import + impact
+Where - Toronto, CAN
+When 2008 - fev
+===========================================================
+[precisa de 5 fontes de dados]
+
+1ro - listings.csv
+Lista prop toronto com diversos atributos/ 15k+ prop DO AIRBNB
+reviews.csv
+Lista de avaliações por prop / 0 ou mais avaliações por prop/400k+
+PRODUZIDO: script auxiliar, 
+fonte: insideairbnb
+
+geolocation
+Lista de propriedades com municipio add, produzido a partir lat/lon
+PROD: por outro script auxiliar
+Fonte: Mapquest
+
+processed_listing_descriptions_small
+Lista / análise de subjetividade / processamento ling natural / anuncios
+
+processed_listing_reviews_small
+Lista / análise de subjetividade / processamento ling natural / avaliações
+
+PROD: Processados por scrippts auxiliares diferentes
+===========================================================
+19 120
+mostrar db após
+14150, 81
+
+====
+1ro get_dummies / para / variaveis categoricas
+2nd normalizar variaveis numericas / logaritmica / homogenizar
+
+METRICAS
+
+modelos de aprendizado
+
+1ro random forest (Biblioteca Sklearn)
+2nd Gradient Boosting (Bibliot XGBoost)
+===============
+Um detalhamento maior pode ser encontrar em anexo
+e também todo o código pode ser executado no repositorio github public
