@@ -44,7 +44,7 @@ Either:
 
 4. [**analysis.ipynb**](./1-source/analysis.ipynb) - Requires all notebooks to have been successfully run (or repository to be cloned), and is responsible for all the data cleaning, merging of previously generated data sources, exploratory data analysis (EDA), feature engineering, model creation, training and results.
 
-5. [**TCC_PUCMG_Report.pdf**](./3-report/TCC_PUCMG_Report.pdf) and [**TCC_PUCMG_Presentation.pptx**](./4-presentation/TCC_PUCMG_Presentation.pptx.pdf) - Respectively, the report and presentation of this study. Both in Portuguese (PT-BR). Rest of the repository is in English.
+5. [**TCC_PUCMG_Report.pdf**](./3-report/TCC_PUCMG_Report.pdf) and [**TCC_PUCMG_Presentation.pptx**](./4-presentation/TCC_PUCMG_Presentation.pptx) - Respectively, the report and presentation of this study. Both in Portuguese (PT-BR). Rest of the repository is in English.
 
 ## Results
 The selected model used Gradient Boosting (XGBoost Library) and had a R² of 0.691 with MSE of 0.125. The notebook had a very extensive data analysis, and contains recommendations for a host that wants to maximize their profit, or a guest that wants to maximize their cost-benefit when renting a place. For the guest example, in Toronto:
