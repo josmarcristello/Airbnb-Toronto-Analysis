@@ -1,7 +1,7 @@
 # Prediction of Airbnb prices with Machine Learning in the Region of Toronto, Ontario, Canada
 
 ## Introduction
-The notebooks in this repository are a case study of the properties listed in Toronto, Ontario, Canada as of 2021, February 08. The model uses data from [Airbnb](https://news.airbnb.com/about-us/), but also uses geolocation data ([MapQuest](https://business.mapquest.com/company)) and natural language processing though [VADER lexicon](https://github.com/cjhutto/vaderSentiment) Lexicon. The repository is fully open-sourced under the [MIT License](https://choosealicense.com/licenses/mit/).
+The notebooks in this repository are a case study of the properties listed in Toronto, Ontario, Canada as of 2021, February 08. The model uses data from [Airbnb](https://news.airbnb.com/about-us/), but also uses geolocation data ([MapQuest](https://business.mapquest.com/company)) and natural language processing though [VADER lexicon](https://github.com/cjhutto/vaderSentiment). The repository is fully open-sourced under the [MIT License](https://choosealicense.com/licenses/mit/).
 
 This study was originally submitted by the author as a capstone project to obtain the title of Scientist of Data Scientist at PUC/MG University (Pontíficia Universidade Católica de Minas Gerais, Brazil).
 
